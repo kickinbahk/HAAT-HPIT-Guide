@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +21,37 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YVg-ix-hBY">
+                                <rect key="frame" x="31" y="234" width="313" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Qe-Mm-7rj" userLabel="Pit Raid">
+                                        <rect key="frame" x="0.0" y="15" width="156.5" height="170"/>
+                                        <state key="normal" title="Pit Raid"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JcV-rD-iPU" userLabel="Tank Raid">
+                                        <rect key="frame" x="156.5" y="15" width="156.5" height="170"/>
+                                        <state key="normal" title="Tank Raid"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9Qe-Mm-7rj" firstAttribute="top" secondItem="JcV-rD-iPU" secondAttribute="top" id="IaW-oY-F2v"/>
+                                    <constraint firstAttribute="height" constant="200" id="J17-t8-OKL"/>
+                                    <constraint firstItem="9Qe-Mm-7rj" firstAttribute="top" secondItem="YVg-ix-hBY" secondAttribute="top" constant="15" id="d5A-9F-gFN"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YVg-ix-hBY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1d5-Hc-2gd"/>
+                            <constraint firstItem="YVg-ix-hBY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="8zf-30-zmZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YVg-ix-hBY" secondAttribute="trailing" constant="15" id="dYY-FQ-eaJ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
         <!--Heroic Pit-->
         <scene sceneID="MEv-md-Sl6">
