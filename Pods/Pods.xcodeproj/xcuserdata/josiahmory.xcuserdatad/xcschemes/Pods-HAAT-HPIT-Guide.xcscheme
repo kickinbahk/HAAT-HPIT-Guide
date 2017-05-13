@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B547D8A4E0613B8D1C06418FAEA9DFD6'
+               BlueprintIdentifier = '280FD589177F6B9953498BF795BA1833'
                BlueprintName = 'Pods-HAAT-HPIT-Guide'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-HAAT-HPIT-Guide.framework'>
