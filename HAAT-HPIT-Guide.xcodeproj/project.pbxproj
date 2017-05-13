@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB1D35141EC77974009A4E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1D35131EC77974009A4E71 /* AppDelegate.swift */; };
+		EB1D35161EC77974009A4E71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1D35151EC77974009A4E71 /* ViewController.swift */; };
+		EB1D35191EC77975009A4E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1D35171EC77975009A4E71 /* Main.storyboard */; };
+		EB1D351B1EC77975009A4E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1D351A1EC77975009A4E71 /* Assets.xcassets */; };
+		EB1D351E1EC77975009A4E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1D351C1EC77975009A4E71 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB1D35101EC77974009A4E71 /* HAAT-HPIT-Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HAAT-HPIT-Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1D35131EC77974009A4E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB1D35151EC77974009A4E71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB1D35181EC77975009A4E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB1D351A1EC77975009A4E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB1D351D1EC77975009A4E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB1D351F1EC77975009A4E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB1D350D1EC77974009A4E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB1D35071EC77974009A4E71 = {
+			isa = PBXGroup;
+			children = (
+				EB1D35121EC77974009A4E71 /* HAAT-HPIT-Guide */,
+				EB1D35111EC77974009A4E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB1D35111EC77974009A4E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB1D35101EC77974009A4E71 /* HAAT-HPIT-Guide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB1D35121EC77974009A4E71 /* HAAT-HPIT-Guide */ = {
+			isa = PBXGroup;
+			children = (
+				EB1D35131EC77974009A4E71 /* AppDelegate.swift */,
+				EB1D35151EC77974009A4E71 /* ViewController.swift */,
+				EB1D35171EC77975009A4E71 /* Main.storyboard */,
+				EB1D351A1EC77975009A4E71 /* Assets.xcassets */,
+				EB1D351C1EC77975009A4E71 /* LaunchScreen.storyboard */,
+				EB1D351F1EC77975009A4E71 /* Info.plist */,
+			);
+			path = "HAAT-HPIT-Guide";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB1D350F1EC77974009A4E71 /* HAAT-HPIT-Guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1D35221EC77975009A4E71 /* Build configuration list for PBXNativeTarget "HAAT-HPIT-Guide" */;
+			buildPhases = (
+				EB1D350C1EC77974009A4E71 /* Sources */,
+				EB1D350D1EC77974009A4E71 /* Frameworks */,
+				EB1D350E1EC77974009A4E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HAAT-HPIT-Guide";
+			productName = "HAAT-HPIT-Guide";
+			productReference = EB1D35101EC77974009A4E71 /* HAAT-HPIT-Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB1D35081EC77974009A4E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "kickinbahk Productions";
+				TargetAttributes = {
+					EB1D350F1EC77974009A4E71 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HPWA75Z78H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB1D350B1EC77974009A4E71 /* Build configuration list for PBXProject "HAAT-HPIT-Guide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB1D35071EC77974009A4E71;
+			productRefGroup = EB1D35111EC77974009A4E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB1D350F1EC77974009A4E71 /* HAAT-HPIT-Guide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB1D350E1EC77974009A4E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1D351E1EC77975009A4E71 /* LaunchScreen.storyboard in Resources */,
+				EB1D351B1EC77975009A4E71 /* Assets.xcassets in Resources */,
+				EB1D35191EC77975009A4E71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB1D350C1EC77974009A4E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1D35161EC77974009A4E71 /* ViewController.swift in Sources */,
+				EB1D35141EC77974009A4E71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB1D35171EC77975009A4E71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB1D35181EC77975009A4E71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB1D351C1EC77975009A4E71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB1D351D1EC77975009A4E71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB1D35201EC77975009A4E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB1D35211EC77975009A4E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB1D35231EC77975009A4E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HPWA75Z78H;
+				INFOPLIST_FILE = "HAAT-HPIT-Guide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kickinbahkproductions.HAAT-HPIT-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB1D35241EC77975009A4E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HPWA75Z78H;
+				INFOPLIST_FILE = "HAAT-HPIT-Guide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kickinbahkproductions.HAAT-HPIT-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB1D350B1EC77974009A4E71 /* Build configuration list for PBXProject "HAAT-HPIT-Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1D35201EC77975009A4E71 /* Debug */,
+				EB1D35211EC77975009A4E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1D35221EC77975009A4E71 /* Build configuration list for PBXNativeTarget "HAAT-HPIT-Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1D35231EC77975009A4E71 /* Debug */,
+				EB1D35241EC77975009A4E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB1D35081EC77974009A4E71 /* Project object */;
+}
