@@ -1,0 +1,6 @@
+framework module Pods_HAAT_HPIT_Guide {
+  umbrella header "Pods-HAAT-HPIT-Guide-umbrella.h"
+
+  export *
+  module * { export * }
+}

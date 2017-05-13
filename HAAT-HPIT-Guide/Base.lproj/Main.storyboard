@@ -26,10 +26,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--Table View Controller-->
+        <!--Heroic Pit-->
         <scene sceneID="MEv-md-Sl6">
             <objects>
-                <tableViewController id="XoT-pt-RtV" sceneMemberID="viewController">
+                <tableViewController title="Heroic Pit" id="XoT-pt-RtV" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="g1k-ia-2ZV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,10 +50,76 @@
                             <outlet property="delegate" destination="XoT-pt-RtV" id="1Cq-B0-1iZ"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Heroic Pit" id="hm4-sE-CuB"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zed-g1-RuC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="836" y="139"/>
+            <point key="canvasLocation" x="1960.8" y="-261.31934032983509"/>
+        </scene>
+        <!--Heroic Pit Controller-->
+        <scene sceneID="TZn-uA-Gyn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W23-Ji-7Ww" userLabel="Heroic Pit Controller" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wII-8H-kAb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XoT-pt-RtV" kind="relationship" relationship="rootViewController" id="MPi-2k-XL1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nOp-eB-LMG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1021.6" y="-261.31934032983509"/>
+        </scene>
+        <!--Heroic AAT -->
+        <scene sceneID="94v-bW-DPY">
+            <objects>
+                <tableViewController id="L5T-PM-5TC" userLabel="Heroic AAT " sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="jYe-DB-VP6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="LNq-JE-6SQ">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LNq-JE-6SQ" id="jcl-rp-Qta">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="L5T-PM-5TC" id="9LX-e4-2DV"/>
+                            <outlet property="delegate" destination="L5T-PM-5TC" id="KDu-Rq-mSq"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Heroic AAT" id="Qv8-Z4-tDd" userLabel="Heroic AAT"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lzt-Vx-SIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1961" y="448"/>
+        </scene>
+        <!--Heroic AAT Controller-->
+        <scene sceneID="abd-i6-ifa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SQg-GV-5p2" userLabel="Heroic AAT Controller" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oIC-J5-1cR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="L5T-PM-5TC" kind="relationship" relationship="rootViewController" id="ocA-ft-PbU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xug-nm-DO7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1022" y="448"/>
         </scene>
     </scenes>
 </document>
