@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home Screen Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HAAT_HPIT_Guide" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeScreenController" customModule="HAAT_HPIT_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -62,13 +62,13 @@
         <!--Heroic Pit-->
         <scene sceneID="MEv-md-Sl6">
             <objects>
-                <tableViewController title="Heroic Pit" id="XoT-pt-RtV" sceneMemberID="viewController">
+                <tableViewController title="Heroic Pit" id="XoT-pt-RtV" customClass="HPitController" customModule="HAAT_HPIT_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="g1k-ia-2ZV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HPit" id="M8r-A2-Vei">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HPitCell" id="M8r-A2-Vei">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M8r-A2-Vei" id="aM9-Wx-95d">
@@ -83,7 +83,16 @@
                             <outlet property="delegate" destination="XoT-pt-RtV" id="1Cq-B0-1iZ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Heroic Pit" id="hm4-sE-CuB"/>
+                    <navigationItem key="navigationItem" title="Heroic Pit" id="hm4-sE-CuB">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="eIY-Bf-Wa6">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="ZLb-Sk-fH0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="closeButton" destination="eIY-Bf-Wa6" id="9Kw-Ae-Z09"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zed-g1-RuC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
