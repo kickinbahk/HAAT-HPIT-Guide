@@ -14,6 +14,7 @@
 		EB1D35191EC77975009A4E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1D35171EC77975009A4E71 /* Main.storyboard */; };
 		EB1D351B1EC77975009A4E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1D351A1EC77975009A4E71 /* Assets.xcassets */; };
 		EB1D351E1EC77975009A4E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1D351C1EC77975009A4E71 /* LaunchScreen.storyboard */; };
+		EB7F9E341F23ACAB00668AAE /* HTankController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F9E331F23ACAB00668AAE /* HTankController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EB1D351A1EC77975009A4E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB1D351D1EC77975009A4E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB1D351F1EC77975009A4E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7F9E331F23ACAB00668AAE /* HTankController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTankController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				EB1D351C1EC77975009A4E71 /* LaunchScreen.storyboard */,
 				EB1D351F1EC77975009A4E71 /* Info.plist */,
 				EB1612CE1ED4755C00B9968D /* HPitController.swift */,
+				EB7F9E331F23ACAB00668AAE /* HTankController.swift */,
 			);
 			path = "HAAT-HPIT-Guide";
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				EB1D35161EC77974009A4E71 /* HomeScreenController.swift in Sources */,
 				EB1D35141EC77974009A4E71 /* AppDelegate.swift in Sources */,
+				EB7F9E341F23ACAB00668AAE /* HTankController.swift in Sources */,
 				EB1612CF1ED4755C00B9968D /* HPitController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
